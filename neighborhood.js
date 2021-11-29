@@ -9,7 +9,7 @@ getRandom = event => {
 	const randomRest = restaurants[Math.floor(Math.random() * restaurants.length)];
 	//alert(randomRest);
 	document.getElementById('display-here').innerHTML = randomRest;
-	console.log(randomRest);
+	//console.log(randomRest);
 }
 if(random)
 	random.addEventListener('click', getRandom);
