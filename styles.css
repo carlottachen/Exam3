@@ -1,0 +1,130 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.check {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 25px;
+	position: relative;
+}
+
+.input-check {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#dog {
+	height: 150px;
+}
+
+div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.photo-album {
+	border-style: solid;
+	border-color: orange;
+	border-width: thin;
+	border-radius: 25px;
+	padding: 20px;
+	
+}
+
+.brown-favorites {
+	margin: 15px;
+}
+
+.favs {
+	margin: 15px;
+	background-color: yellow;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 15px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: lightyellow;
+}
+
+h3 {
+	text-align: center;
+}
+
+.info {
+	border-style: solid;
+	border-color: orange;
+	border-width: medium;
+	border-radius: 25px;
+	width: 40%;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#info-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.random-button {
+	background-color: orange;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.random {
+	border-style: dotted;
+	border-color: orange;
+	border-width: medium;
+	border-radius: 25px;
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: center;
+}
+
